@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  max-width: 1280px;
+  scrollbar-width: none; /* Firefox */
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: #f1f1f1;
+  --secondary: rgba(31, 209, 253, 0.4);
+  --tertiary: rgba(31, 209, 253, 0.6);
+}
+
+/* CHROME & SAFARI */
+*::-webkit-scrollbar {
+  width: 8px; 
+}
+
+*::-webkit-scrollbar-track {
+background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+background: var(--wizard-yellow);
+border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--wizard-blue);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: var(--wizard-navy-blue);
+  border-radius: 10px;
+}
+
+/* MOZILLA FIREFOX */
+*::-moz-scrollbar {
+  width: 8px; 
+}
+
+*::-moz-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-moz-scrollbar-thumb {
+  background: var(--wizard-yellow);
+  border-radius: 8px;
+}
+
+*::-moz-scrollbar-thumb:hover {
+  background: var(--wizard-blue);
+  border-radius: 10px;
+}
+
+*::-moz-scrollbar-thumb:active {
+  background: var(--wizard-navy-blue);
+  border-radius: 10px;
+}
+
+
+/* MICROSOFT INTERNET EXPLORER */
+*::-ms-scrollbar {
+  width: 8px; 
+}
+
+*::-ms-scrollbar-track {
+background-color: transparent;
+}
+
+*::-ms-scrollbar-thumb {
+  background: var(--wizard-yellow);
+  border-radius: 8px;
+}
+
+*::-ms-scrollbar-thumb:hover {
+  background: var(--wizard-blue);
+  border-radius: 10px;
+}
+
+*::-ms-scrollbar-thumb:active {
+  background: var(--wizard-navy-blue);
+  border-radius: 10px;
+}
+
+/* OPERA */
+*::-o-scrollbar {
+  width: 8px; 
+}
+
+*::-o-scrollbar-track {
+background-color: transparent;
+}
+
+*::-o-scrollbar-thumb {
+background: var(--wizard-yellow);
+border-radius: 8px;
+}
+
+*::-o-scrollbar-thumb:hover {
+  background: var(--wizard-blue);
+  border-radius: 10px;
+}
+
+*::-o-scrollbar-thumb:active {
+  background: var(--wizard-navy-blue);
+  border-radius: 10px;
+}
