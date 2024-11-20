@@ -12,7 +12,6 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "tsparticles-engine": "^2.12.0",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {

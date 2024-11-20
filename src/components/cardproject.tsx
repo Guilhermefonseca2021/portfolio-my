@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import chatbotAvatar from "@/_public/chatbot.jpg";
 
 type CardProps = {
   image: StaticImageData;
@@ -11,7 +10,7 @@ type CardProps = {
 
 export default function CardProject({ image, title, description, cta, link }: CardProps) {
   return (
-    <div className="">
+    <div id="project" className="">
       <div className="relative flex w-80 flex-col rounded-xl border-b-4 bg-clip-border text-gray-700 shadow-md">
         <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
           <Image src={image} alt="logo" />

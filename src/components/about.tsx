@@ -28,15 +28,18 @@ export default function About() {
   }, []);
 
   return (
-    <div id="about" className="flex w-full h-full  items-center justify-center relative gap-14">
+    <div
+      id="about"
+      className="flex w-full h-full items-center justify-center relative gap-14 max-sm:flex-col max-sm:my-12"
+    >
       <Image
         src={avatar}
         alt="me"
-        width={354}
+        width={324}
         height={354}
         className="rounded"
       />
-      <div className="my-32 z-10">
+      <div className="lg:my-32 z-10">
         <h1 className="text-3xl">
           Hello! i'm <span ref={el} className="text-blue-400"></span>{" "}
         </h1>
@@ -45,20 +48,17 @@ export default function About() {
           Software engineer, coding more than 1 years as freelancer and working
           to ONGs to help people in Africa as Front-end developer at therapy.
         </p>
-        <div className="info flex">
-          <button
-            onClick={scrollToContact}
-            className="bg-gray-700 text-slate-200 text-sm p-2 ease-out hover:bg-slate-800 rounded my-4"
-          >
-            Contact
+        <div className="info flex gap-2">
+          <button onClick={scrollToContact} className="flex items-center w-1/1 h-10 my-4 gap-1 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-4 py-0 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
+            <p>Contact</p>
           </button>
-          <button className="mx-2 bg-gray-700 text-slate-200 text-sm p-2 ease-out hover:bg-slate-800 rounded my-4">
-            <a href="">Follow Me</a>
+          <button className="flex items-center w-1/1 h-10 my-4 gap-1 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-4 py-0 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
+            <p>follow me</p>
           </button>
         </div>
       </div>
-      <div className="absolute top-20 right-0 z-0">
-        <Image src={skills} alt="rocket company" className="cursor-pointer" />
+      <div className="absolute top-32 right-0 z-0 max-sm:hidden">
+        <Image src={skills} alt="rocket company" width={426} className="cursor-pointer" />
       </div>
     </div>
   );
