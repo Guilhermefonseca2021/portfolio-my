@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
-type CardProps = {
+export type CardProps = {
   image: StaticImageData;
   title: string;
   description: string;
