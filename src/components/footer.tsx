@@ -6,7 +6,15 @@ export default function Footer() {
           Ready to bring value to any team through my diverse skill set and
           problem-solving abilities.
         </p>
-
+        <h1 className="text-3xl mx-auto mt-6 max-w-md text-center leading-relaxed">Contact:</h1>
+        <h2 className="border rounded-3xl border-gray-400 p-1 px-0 mx-auto mt-6 max-w-xs text-center">
+          <a
+            href="mailto:gsbloogs194@gmail.com?subject=Interesse%20em%20seus%20serviços&body=Olá,%20me%20chamo%20[Seu%20Nome]%20e%20estou%20entrando%20em%20contato%20pelo%20seu%20portfólio.%20Gostaria%20de%20agendar%20uma%20conversa."
+            rel="noopener noreferrer"
+          >
+            gsbloogs194@gmail.com
+          </a>
+        </h2>
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
           <li>
             <a
@@ -40,31 +48,7 @@ export default function Footer() {
         <ul id="contact" className="mt-12 flex justify-center gap-6 md:gap-8">
           <li>
             <a
-              href="https://www.facebook.com/profile.php?id=100022123010972"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-100 transition hover:text-gray-100/75"
-            >
-              <span className="sr-only">Facebook</span>
-              <svg
-                className="size-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://www.instagram.com/pvd.guihsantos2/"
-              rel="noreferrer"
+              href="https://www.instagram.com/fonsecae.dev/"
               target="_blank"
               className="text-gray-100 transition hover:text-gray-100/75"
             >

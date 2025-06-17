@@ -37,7 +37,7 @@ export default function About() {
         alt="me"
         width={324}
         height={354}
-        className="rounded"
+        className="rounded-full max-sm:w-64 max-sm:h-64 max-sm:mb-4 max-sm:mx-auto shadow-lg shadow-gray-500/50 hover:scale-105 duration-200 cursor-pointer"
       />
       <div className="lg:my-32 z-10">
         <h1 className="text-3xl">
@@ -45,15 +45,15 @@ export default function About() {
         </h1>
         <p className="font-thin text-sm max-w-[320px]">
           <g id="Frame"></g>
-          Software engineer, coding more than 1 years as freelancer and working
-          to ONGs to help people in Africa as Front-end developer at therapy.
+          Software engineer, coding more than 2 years as freelancer and working
+          to ONGs to help people in Africa as Front-end developer planton-land.
         </p>
         <div className="info flex gap-2">
           <button onClick={scrollToContact} className="flex items-center w-1/1 h-10 my-4 gap-1 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-4 py-0 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
             <p>Contact</p>
           </button>
           <button className="flex items-center w-1/1 h-10 my-4 gap-1 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-4 py-0 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
-            <p>follow me</p>
+            <a href="https://www.instagram.com/fonsecae.dev/" target="_blank">follow me</a>
           </button>
         </div>
       </div>

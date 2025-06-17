@@ -23,9 +23,9 @@ export default function Card() {
               </h2>
 
               <p className="mt-4 text-gray-300">
-                Node.js developer specializing in messaging automation, JWT
+                Node.js developer specializing in messages automation, JWT
                 authentication, and payment integration. Experienced with AWS
-                S3, Cloudinary, Mocha testing, and React for e-commerce
+                S3, Cloudinary, Mocha testing and React
                 interfaces.
               </p>
             </div>
@@ -33,7 +33,7 @@ export default function Card() {
             <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               <a
                 className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-x-blue-950 hover:shadow-blue-950"
-                href="https://www.rocketseat.com.br/"
+                href="https://www.unicesumar.edu.br/unicesumar/"
                 target="blank"
               >
                 <svg
@@ -53,12 +53,12 @@ export default function Card() {
                   />
                 </svg>
 
-                <h2 className="mt-4 text-xl font-bold text-white">Rockeseat</h2>
+                <h2 className="mt-4 text-xl font-bold text-white">Unicesumar</h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Rocketseat graduate using JavaScript, React, React Native, and
+                  Graduate using JavaScript, React, React Native, and
                   Node.js. Working with APIs, and implementing clean, scalable
-                  code practices.
+                  code practices in the university.
                 </p>
               </a>
               <a
@@ -86,9 +86,9 @@ export default function Card() {
                 <h2 className="mt-4 text-xl font-bold text-white">Kultivi</h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  I improved my English proficiency at Kultivi, focusing on
+                  I improved my English C1 proficiency at Kultivi, focusing on
                   grammar, vocabulary, and communication skills. Using English
-                  professionally
+                  professionally and currently coursing french.
                 </p>
               </a>
               <a
@@ -131,5 +131,3 @@ export default function Card() {
     </div>
   );
 }
-
-Card;

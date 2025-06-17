@@ -56,9 +56,9 @@ Para projetos que utilizam serviços da AWS e Cloudinary, é necessário configu
 
 ## 🌐 Demo e Deploy
 
-Portfolio: https://seuportfolio.com
+Portfolio: https://portfolio-software-engineer-gray.vercel.app/
 
 📫 Contato
-Sinta-se à vontade para me contatar através do LinkedIn ou enviar um e-mail para seuemail@dominio.com.
+Sinta-se à vontade para me contatar através do LinkedIn ou enviar um e-mail para gsbloogs194@gmail.com.
 
 Desenvolvido com ❤️ por Guilhermefonseca2021.

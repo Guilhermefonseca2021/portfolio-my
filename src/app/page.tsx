@@ -14,6 +14,7 @@ export default function Page() {
           <ul className="grid gap-16 place-items-center sm:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5">
             {cardProject.map((card: CardProps, index: number) => (
               <CardProject
+                key={index}
                 image={card.image}
                 title={card.title}
                 description={card.description}
